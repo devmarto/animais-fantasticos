@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Via CEP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="css/via-cep.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main class="container">
+    <h1>Pesquisar CEP</h1>
+    <form name="formCep" id="formCep">
+      <input id="textCep" type="text" placeholder="12345-678">
+      <button id="btnCep"><i class="fa-solid fa-magnifying-glass icon-search"></i></button>
+    </form>
+    <div class="address inactive">
+      <p id="rua"></p>
+      <p>CEP: <span id="cep"></span> </p>
+      <p>Bairro: <span id="bairro"></span> </p>
+      <p><span id="localidade"></span>, <span id="uf"></span></p>
+    </div>
+  </main>
+  <script src="js/via-cep.js"></script>
+</body>
+
+</html>

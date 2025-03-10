@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  padding: 1rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.joke{
+  font-family: 'Castoro';
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+.btn-joke{
+  margin-top: 2rem;
+  border: 4px solid #333;
+  border-radius: 1rem;
+  /* text-transform: uppercase; */
+  font-family: 'Ubuntu';
+  background-color: transparent;
+  padding: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: bold;
+}
+.btn-joke:hover{
+  background: #333;
+  color: #faf6ed;
+}

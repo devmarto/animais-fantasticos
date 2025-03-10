@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.logo{
+  width: 320px;
+  height: 320px;
+}
+.wrapper{
+  background-color: #FFF;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, .25);
+}
+.value{
+  margin-top: 2rem;
+  text-align: center;
+}
+.price{
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: .5rem;
+  font-size: 2.5rem;
+}
+.update{
+  font-family: "Ubuntu", sans-serif;
+  font-size: .75rem;
+  font-weight: 300;
+}
+.update::before{
+  display: inline-block;
+  content: '';
+  width: 6px;
+  height: 6px;
+  background-color: #3F4;
+  border-radius: 50%;
+  margin-left: 4px;
+  position: relative;
+  border: 1px solid #333;
+  left: -4px;
+}
