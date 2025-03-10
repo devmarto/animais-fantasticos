@@ -39,9 +39,8 @@ export default class AnimaNumero{
 
   init(){
     if (this.numeros.length && this.observerTarget){
-
+      this.addMutationObserver();
     }
-    this.addMutationObserver();
     return this;
   }
 
